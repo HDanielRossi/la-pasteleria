@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Home from '../views/Home.vue'
 import Productos from '../views/ProductosView.vue'
 import Sucursales from '../views/SucursalesView.vue'
 import ArmaTuPastel from '../views/ArmaTuPastelView.vue'
@@ -9,7 +9,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: Home,
   },
   {
     path: '/productos',
@@ -31,8 +31,6 @@ const routes = [
     name: 'contacto',
     component: Contacto,
   },
-  
-
 ]
 
 const router = createRouter({

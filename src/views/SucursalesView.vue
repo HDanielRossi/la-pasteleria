@@ -1,5 +1,18 @@
 <template>
-  <div class="Sucursales">
-    <h1>Pagina de sucursales</h1>
+  <div class="productos">
+    <h1>Pagina de productos</h1>
+    <content/>
   </div>
+
+
 </template>
+
+<script>
+import Content from "../components/Content.vue";
+
+export default {
+  components: {
+    Content
+  },
+}
+</script>
